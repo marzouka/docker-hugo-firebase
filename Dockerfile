@@ -1,8 +1,8 @@
-FROM node:12.16.1-alpine
+FROM node:14.15.3-alpine
 MAINTAINER Iyad Marzouka <iyad.marzouka@gmail.com>
 
-ENV FIREBASE_TOOLS_VERSION 7.14.0
-ENV HUGO_VERSION 0.65.3
+ENV FIREBASE_TOOLS_VERSION 9.0.1
+ENV HUGO_VERSION 0.79.0
 ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit
 
 # Install Firebase tools
